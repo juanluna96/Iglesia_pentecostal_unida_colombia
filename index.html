@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Iglesia Ricardo</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               Navegación                                -->
+    <!-- ----------------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-primary py-0">
+        <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="img/logo_navbar.png" alt="logo_iglesia" style="max-width: 60px; max-height: 70px;">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-light my-2 my-sm-0 text-primary d-block  d-md-inline" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- --------------------------- Fin navegación ---------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                  Main                                   -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container">
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                                Membrete                                 -->
+        <!-- ----------------------------------------------------------------------- -->
+        <div class="membrete row my-md-5">
+            <div class="col-12 col-lg-3 text-center">
+                <img src="img/logo_iglesia.png" class="img-fluid rounded h-100" alt="logo_iglesia.png">
+            </div>
+            <div class="col-12 col-lg-6 p-0">
+                <h4 class="text-center font-weight-bold">ESTANDAR - PROCESOS DE APOYO COVID-19</h4>
+                <h4 class="bg-primary p-2 text-center">IGLESIA PENTECOSTAL UNIDA DE COLOMBIA</h4>
+                <h4 class="text-center">PLAN DE CONTENGENCIA Y MANUAL DE BIOSEGURIDAD</h4>
+            </div>
+            <div class="col-12 col-lg-3 p-0 text-center">
+                <h4>COD: PR-AST CV 01</h4>
+                <h4 class="bg-primary p-2 mb-0">Fecha: 01-09-2020</h4>
+                <div class="datos">
+                    <h5 class="bg-primary p-2 mt-0"><span class="font-weight-bold">Version: </span>001</h5>
+                    <h5><span class="font-weight-bold">Pagina: </span>29 de 40</h5>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="text-center"><span class="font-weight-bold">Anexo 2: </span>Cuestionario previo de ingreso a la congregación</h3>
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                         Tabla datos personales                          -->
+        <!-- ----------------------------------------------------------------------- -->
+        <div class="datos_personales">
+            <p class="mt-5" style="font-size: 22px;"><span class="font-weight-bold">1. </span>Datos personales</p>
+
+            <table class="table table-light table-striped" id="datos_personales" data-card-ignore>
+                <tbody>
+                    <tr>
+                        <td>Nombre y apellidos</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tipo y numero de documento de identidad</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Dirección y ciudad de referencia</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Teléfono de contacto</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Temperatura al ingreso a la congregación</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Fecha de ingreso</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <!-- --------------------- Fin tabla datos personales ---------------------- -->
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                           Tabla de preguntas                            -->
+        <!-- ----------------------------------------------------------------------- -->
+        <div class="preguntas_vigor">
+            <p class="mt-5" style="font-size: 22px;"><span class="font-weight-bold">2. </span>Preguntas de Rigor</p>
+
+            <table class="table table-striped" id="myTable">
+                <thead>
+                    <tr>
+                        <th data-card-title>#</th>
+                        <th data-card-footer>Preguntas</th>
+                        <th data-card-footer>Si</th>
+                        <th data-card-footer>No</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>¿En tu barrio, edificio, condominio o lugar de residencia hay casos confirmados de COVID-19?</td>
+                        <td>Si</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>¿Has estado en contacto con personas diagnosticadas con COVID-19 y bajo sospecha?</td>
+                        <td></td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>¿Hace parte usted del personal de salud activo o en linea directa de Atención de Urgencias?</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="font-weight-bold text-center table-active"><em>¿Hace parte usted del personal de salud activo o en linea directa de Atencion de Urgencias?</em></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Fiebre o cuadro febril superior a 38 grados celsius</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Tos</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Fatiga</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Dificultad respiratoria</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>Bronquitis / Neomenia</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td>Diarrea o alteraciones del sistema gastrointestinal</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td>Deshidratación</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td>Perdida del olfato (Anosmia)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td>Perdida del pérdida o cambios en el gusto (Gisgeusia / Ageusia)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="font-weight-bold text-center table-active"><em>Terminada la encuesta de prueba de ingreso a la iglesia</em></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- ----------------------- Fin tabla de preguntas ------------------------ -->
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                                 Firmas                                  -->
+        <!-- ----------------------------------------------------------------------- -->
+        <div class="firmas container mb-md-3">
+            <div class="firma-registro row my-2">
+                <p class="mb-0">Registro diligenciado por: </p>
+                <span class="border-bottom border-dark col-12 col-md my-4 my-md-0 mb-md-1 ml-md-3"></span>
+            </div>
+            <div class="firma-cargo row my-2">
+                <p class="mb-0">Cargo dentro de la iglesia: </p>
+                <span class="border-bottom border-dark col-12 col-md my-4 my-md-0 mb-md-1 ml-md-3"></span>
+            </div>
+            <div class="firma-telefono row my-2">
+                <p class="mb-0 mr-1">Teléfono de contacto: </p>
+                <span class="border-bottom border-dark col-12 col-md my-4 my-md-0 mb-md-1 ml-md-3"></span>
+            </div>
+        </div>
+        <!-- ---------------------------- Fin de firmas ---------------------------- -->
+
+    </div>
+    <!-- ------------------------------ Fin main ------------------------------- -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- ------------------ Table to cards (Tabla responsive) ------------------ -->
+    <script src="puglins/TableToCards.js"></script>
+</body>
+
+</html>

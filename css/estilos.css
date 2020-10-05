@@ -1,0 +1,12 @@
+h4 {
+    padding: 0 .5rem!important;
+}
+
+.bg-primary {
+    background-color: #6daff588!important;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #6daff588;
+}
